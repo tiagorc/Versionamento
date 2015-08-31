@@ -79,12 +79,8 @@
 		27EA6B1D1B94D3AD00D1E05A /* Versionamento */ = {
 			isa = PBXGroup;
 			children = (
-				27EA6B201B94D3AD00D1E05A /* AppDelegate.swift */,
-				27EA6B221B94D3AD00D1E05A /* MasterViewController.swift */,
-				27EA6B241B94D3AD00D1E05A /* DetailViewController.swift */,
-				27EA6B261B94D3AD00D1E05A /* Main.storyboard */,
-				27EA6B291B94D3AD00D1E05A /* Images.xcassets */,
-				27EA6B2B1B94D3AD00D1E05A /* LaunchScreen.xib */,
+				27EA6B421B94D3B800D1E05A /* Controllers */,
+				27EA6B431B94D3CB00D1E05A /* Resources */,
 				27EA6B1E1B94D3AD00D1E05A /* Supporting Files */,
 			);
 			path = Versionamento;
@@ -113,6 +109,26 @@
 				27EA6B371B94D3AD00D1E05A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27EA6B421B94D3B800D1E05A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27EA6B221B94D3AD00D1E05A /* MasterViewController.swift */,
+				27EA6B241B94D3AD00D1E05A /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		27EA6B431B94D3CB00D1E05A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27EA6B261B94D3AD00D1E05A /* Main.storyboard */,
+				27EA6B201B94D3AD00D1E05A /* AppDelegate.swift */,
+				27EA6B291B94D3AD00D1E05A /* Images.xcassets */,
+				27EA6B2B1B94D3AD00D1E05A /* LaunchScreen.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
